@@ -1,0 +1,13 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Plugin build artifacts
+*.hi
+*.o
+
+# Gitit junk
+gitit.log
+
+# Gitit data store (a seperate git repo!)
+wikidata/

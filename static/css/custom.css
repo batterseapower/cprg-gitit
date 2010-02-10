@@ -1,0 +1,123 @@
+@import url("screen.css"); /* default gitit screen styles */
+@import url("hk-pyg.css"); /* for syntax highlighting */
+
+/* Put your custom style modifications here: */
+
+/* Overall text settings */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    text-align: left;
+}
+
+/* Overall header containers */
+
+#cam-header { 
+    margin-bottom: 2px;
+}
+
+#cam-blue-header {
+    background-color: #0099cc;
+    height: 16px;
+    text-align: right;
+    border-bottom: 2px solid #cccccc;
+    padding: 0;
+    margin: 0;
+}
+
+#cam-image-header { 
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cambridge header buttons (Search, A-Z etc) */
+
+#cam-insert {
+    height: 18px;
+}
+
+.cam-insert-button {
+    width: 53px;
+    font-size: 0;
+}
+
+/* Main area of the header: our group name and the logo */
+
+#cam-logo { 
+    float: left;
+    height: 46px
+}
+
+#cprg-header { 
+    float: right;
+    
+    font-size: 140%;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Seperates the header area from the breadcrumbs  */
+
+.cam-separator {
+    clear: both;
+    height: 4px;
+    background-color: #0099cc;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+}
+
+/* Breadcrumbs */
+
+#bread p a {
+    font-size: 80%;
+    font-weight: bold;
+}
+
+/* Customize colors and link styles to override defaults from screen.css */
+
+ul.tabs li a { color: #003399; }
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    color: #003399;
+}
+
+a:visited {
+    color: #c33;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Override style.css settings for the Wiki stuff */
+
+#sidebar input[type="submit"] {
+    border: 1px solid #000;
+    
+    font-weight: solid;
+    
+    color: #003399;
+    background-color: #fff;
+}
+
+#content {
+    font-size: 95%;
+}
+
+/* Userbox customisation */
+
+#userbox {
+    text-align: center;
+}
+
+/* Footer */
+
+#cam-footer-text {
+    font-size: x-small;
+}
