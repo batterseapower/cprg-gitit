@@ -17,6 +17,7 @@
     <!--[if IE]><link href="$base$/css/ie.css" rel="stylesheet" media="screen, projection" type="text/css" /><![endif]-->
   </head>
   <body>
+    <script src="$base$/js/jsMath/plugins/spriteImageFonts.js" />
     
     <div id="siteheader">
       <div id="cam-header">
